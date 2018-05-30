@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body article {
+  background-color: rgba(118, 117, 128, 0.05);
+}
+body article header {
+  position: relative;
+  width: 70%;
+  padding-top: 3%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+body article header .search-form {
+  width: 100%;
+}
+body article header .search-form input {
+  width: 90%;
+  height: 50px;
+  font-size: 50px;
+  padding: 0 80px 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgba(118, 117, 128, 0);
+  color: #ec5a62;
+  border: none;
+}
+body article header .search-form input::placeholder {
+  color: #c2c2c2;
+  font-size: 50px;
+  font-weight: 600;
+}
+body article header .search-form button {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url(../img/favicon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+}
+body article .main {
+  width: auto;
+  height: auto;
+  display: block;
+  text-align: center;
+  background-color: rgba(118, 117, 128, 0);
+}
+body article .main .first-column {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  margin-top: 20px;
+}
+body article .main .first-column h2 {
+  display: block;
+  text-align: left;
+  margin: 0;
+  color: #c2c2c2;
+  margin-bottom: 15px;
+}
+body article .main .first-column .card {
+  padding: 10px 20px;
+  background-color: rgba(118, 117, 128, 0.05);
+  margin-bottom: 10px;
+  width: 100%;
+}
+body article .main .first-column .card:hover {
+  background-color: rgba(118, 117, 128, 0.1);
+}
+body article .main .first-column .card:hover p {
+  color: #ec5a62;
+}
+body article .main .first-column .card .avatar {
+  display: inline-block;
+  width: 50px;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+body article .main .first-column .card p {
+  display: inline-block;
+  font-size: 12px;
+  color: #c2c2c2;
+  font-weight: 600;
+}
+body article .main .second-column {
+  display: inline-block;
+  text-align: left;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 20%;
+  margin-top: 20px;
+}
+body article .main .second-column h2 {
+  display: block;
+  text-align: left;
+  margin: 0;
+  color: #c2c2c2;
+  margin-bottom: 15px;
+}
+body article .main .second-column .card {
+  padding: 10px 20px;
+  background-color: rgba(118, 117, 128, 0.05);
+  margin-bottom: 10px;
+  width: 100%;
+}
+body article .main .second-column .card:hover {
+  background-color: rgba(118, 117, 128, 0.1);
+}
+body article .main .second-column .card:hover p {
+  color: #ec5a62;
+}
+body article .main .second-column .card .avatar {
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+}
+body article .main .second-column .card p {
+  display: inline-block;
+  font-size: 12px;
+  color: #c2c2c2;
+  font-weight: 600;
+}
+body article .main .third-column {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  margin-top: 20px;
+}
+body article .main .third-column h2 {
+  display: block;
+  text-align: left;
+  margin: 0;
+  color: #c2c2c2;
+  margin-bottom: 15px;
+}
+body article .main .third-column .card {
+  padding: 10px 20px;
+  background-color: rgba(118, 117, 128, 0.05);
+  margin-bottom: 10px;
+  width: 100%;
+}
+body article .main .third-column .card:hover {
+  background-color: rgba(118, 117, 128, 0.1);
+}
+body article .main .third-column .card:hover p {
+  color: #ec5a62;
+}
+body article .main .third-column .card .avatar {
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+}
+body article .main .third-column .card p {
+  display: inline-block;
+  font-size: 12px;
+  color: #c2c2c2;
+  font-weight: 600;
+}
